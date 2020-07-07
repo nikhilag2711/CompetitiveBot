@@ -1,0 +1,7 @@
+CF Bot:
+1. User Info: Rating, Questions History(Stalk), Contest History(which official and which virtual), Blog Info
+2. Standings by use of lists
+3. Rating changes in O(1) since rank-sorted
+4. problemset.problems ...tag...upper_bound__lower_bound
+5. Search Contest List: Edu,Div1,Div2,DIv3,Div4
+ 

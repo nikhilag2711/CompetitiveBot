@@ -2,4 +2,5 @@ asyncio
 discord
 requests
 datetime
-dotenv
+python-dotenv
+selenium

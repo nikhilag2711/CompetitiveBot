@@ -1,12 +1,30 @@
 import requests,json
 
 field_spaces = {'rank': 6, 'handle': 30, 'total_score': 7, 'prob':6, 'delta': 5}
-def create_ranklist(data):
+def create_ranklist(data,dataoff):
+    print("entered rank function")
     data = data['result']
+    dataoff = dataoff['result']
+    rows_off = dataoff['rows']
     cnt = data['contest']
+    identity = cnt['id']
+    print("reached before RAT_URL")
+    RAT_URL = f'https://codeforces.com/api/contest.ratingChanges?contestId={identity}'
+    obj = requests.get(RAT_URL)
+    print("after rat_url")
+    rating_changes = json.loads(obj.text)
+    if(rating_changes['status']=='FAILED'):
+        return f'{rating_changes["comment"]}'
+    rating_changes = rating_changes['result']
+    print("got rating changes")
     prbs = data['problems']
     rows = data['rows']
     prb_names = [prb['index'] for prb in prbs]
+    offRank = {'testHandle01213': 0}
+    for row in rows_off:
+        offRank[row['party']['members'][0]['handle']]=row['rank']
+    
+    print(offRank)
     procdata=[]
     for row in rows:
         temp=[]
@@ -16,7 +34,23 @@ def create_ranklist(data):
         res = row['problemResults']
         for r in res:
             temp.append(str(r['points']))
+        
+        isCont = False
+        chng=0
+        if(row['party']['participantType']=='CONTESTANT'):
+            rat_chng = rating_changes[offRank[row['party']['members'][0]['handle']]-1]
+            chng = rat_chng['newRating'] - rat_chng['oldRating']
+            isCont = True
+        if(isCont):
+            if(chng>=0):
+                temp.append('+' + str(chng))
+            else:
+                temp.append(str(chng))
+        else:
+            temp.append(' ??')
+        print("inside the loop")
         procdata.append(temp)
+    
     for proc in procdata:
         if(proc[0]==0):
             procdata.remove(proc)
@@ -24,7 +58,9 @@ def create_ranklist(data):
     table_header= 'rank  | handle                        | =      | '
     for prb in prb_names:
         table_header=table_header+str(prb)+str(' '*(field_spaces['prob']-len(prb)))+'| '
+    table_header += 'Delta | '
     ans += table_header + '\n'
+
     for p in procdata:
         temp=""
         temp += str(p[0])
@@ -40,5 +76,6 @@ def create_ranklist(data):
             temp+= (' '*(field_spaces['prob']-len(proc))) + '| '
         ans = ans + temp + '\n'
     ans += '``'
+
     return ans
     

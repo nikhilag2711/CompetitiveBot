@@ -45,27 +45,39 @@ async def on_command_error(ctx,error):
 ###### Creating coroutines for standings by use of lists ########
 
 @bot.command(name='ranklist',help='Displays the standings along with rating changes of the users in a list specified by user (Shows at max 17 positions)')
-async def disp_ranklist(ctx,contest_id: str,key:str=''):
+async def disp_ranklist(ctx,contest_id: str='',key:str=''):
     handles=''
+    if(contest_id=''):
+        await ctx.send("Enter a contest id")
+        return
     if(key!=''):
         handles = cf_scraper.list_scrape(key)
         STANDINGS_URL=f'https://codeforces.com/api/contest.standings?contestId={contest_id}&handles={handles}&showUnofficial=true'
+        STANDINGS_URL_OFF=f'https://codeforces.com/api/contest.standings?contestId={contest_id}&handles={handles}&showUnofficial=false'
         obj = requests.get(STANDINGS_URL)
+        objoff = requests.get(STANDINGS_URL_OFF)
     else:
-        STANDINGS_URL=f'https://codeforces.com/api/contest.standings?contestId={contest_id}&from=1&count=17'
+        STANDINGS_URL=f'https://codeforces.com/api/contest.standings?contestId={contest_id}&from=1&count=16&showUnofficial=true'
+        STANDINGS_URL_OFF=f'https://codeforces.com/api/contest.standings?contestId={contest_id}&from=1&count=16&showUnofficial=false'
         obj = requests.get(STANDINGS_URL)
+        objoff = requests.get(STANDINGS_URL_OFF)
         handles='yay'
     print(handles)
     if(handles==''):
         await ctx.send("Such a list does not exist")
         return
     temp = json.loads(obj.text)
+    temp2 = json.loads(objoff.text)
+    print("reached here")
     if(temp['status']=="FAILED"):
         await ctx.send(f'{temp["comment"]}')
+    elif(temp2['status']=="FAILED"):
+        await ctx.send(f'{temp2["comment"]}')
     elif len(temp['result'])==0:
         await ctx.send(f'No data available to display')
     else:
-        ans = rl.create_ranklist(temp)
+        print("entered in here")
+        ans = rl.create_ranklist(temp,temp2)
         print(ans)
         await ctx.send(ans)
 

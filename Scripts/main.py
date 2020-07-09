@@ -1,11 +1,13 @@
 import os, asyncio, random, discord, json, requests, re, datetime
 from dotenv import load_dotenv
 from discord.ext import commands
+from CFListScraper import ScrapeList
+import RanklistCreator as rl
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
 bot = commands.Bot(command_prefix='cp!')
-
+cf_scraper = ScrapeList()
 @bot.event
 async def on_ready():
     print(f'{bot.user.name} has connected to Discord!!!')
@@ -41,6 +43,32 @@ async def on_command_error(ctx,error):
 
 
 ###### Creating coroutines for standings by use of lists ########
+
+@bot.command(name='ranklist',help='Displays the standings along with rating changes of the users in a list specified by user (Shows at max 17 positions)')
+async def disp_ranklist(ctx,contest_id: str,key:str=''):
+    handles=''
+    if(key!=''):
+        handles = cf_scraper.list_scrape(key)
+        STANDINGS_URL=f'https://codeforces.com/api/contest.standings?contestId={contest_id}&handles={handles}&showUnofficial=true'
+        obj = requests.get(STANDINGS_URL)
+    else:
+        STANDINGS_URL=f'https://codeforces.com/api/contest.standings?contestId={contest_id}&from=1&count=17'
+        obj = requests.get(STANDINGS_URL)
+        handles='yay'
+    print(handles)
+    if(handles==''):
+        await ctx.send("Such a list does not exist")
+        return
+    temp = json.loads(obj.text)
+    if(temp['status']=="FAILED"):
+        await ctx.send(f'{temp["comment"]}')
+    elif len(temp['result'])==0:
+        await ctx.send(f'No data available to display')
+    else:
+        ans = rl.create_ranklist(temp)
+        print(ans)
+        await ctx.send(ans)
+
 
 
 

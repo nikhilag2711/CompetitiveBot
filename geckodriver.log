@@ -1,0 +1,537 @@
+1594205397323	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledOnRoA"
+*** You are running in headless mode.
+1594205411417	Marionette	INFO	Listening on port 37527
+1594205411681	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1594205484400	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletYnEQM"
+*** You are running in headless mode.
+1594205489788	Marionette	INFO	Listening on port 45417
+1594205489815	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+1594206345927	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehVKmlR"
+*** You are running in headless mode.
+1594206352124	Marionette	INFO	Listening on port 36021
+1594206352146	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+1594206498248	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileza7lc2"
+*** You are running in headless mode.
+1594206504051	Marionette	INFO	Listening on port 35387
+1594206504067	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+1594206739179	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0pJl6g"
+*** You are running in headless mode.
+1594206748089	Marionette	INFO	Listening on port 39721
+1594206748114	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1594207879031	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile95NPDh"
+*** You are running in headless mode.
+1594207897329	Marionette	INFO	Listening on port 37219
+1594207897380	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1594208217731	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekW7wB4"
+*** You are running in headless mode.
+1594208237002	Marionette	INFO	Listening on port 34983
+1594208237085	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1594208342410	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNi8piq"
+*** You are running in headless mode.
+1594208354439	Marionette	INFO	Listening on port 36999
+1594208354456	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1594208435611	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyvDn7b"
+*** You are running in headless mode.
+1594208452301	Marionette	INFO	Listening on port 42379
+1594208452358	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1594208674807	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWopKTu"
+*** You are running in headless mode.
+1594208693867	Marionette	INFO	Listening on port 35505
+1594208693961	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1594208793366	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSB7T4y"
+*** You are running in headless mode.
+1594208810118	Marionette	INFO	Listening on port 41427
+1594208810210	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+1594209046989	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileY1hDyF"
+*** You are running in headless mode.
+1594209049126	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileX2ogC0"
+*** You are running in headless mode.
+1594209053378	Marionette	INFO	Listening on port 35159
+1594209053441	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+1594209700532	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIhvlSH"
+*** You are running in headless mode.
+1594209717337	Marionette	INFO	Listening on port 42473
+1594209717378	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+1594210119671	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile61WHgO"
+*** You are running in headless mode.
+1594210132267	Marionette	INFO	Listening on port 40789
+1594210132305	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/91012/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1594279803983	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoXbTqG"
+*** You are running in headless mode.
+1594279810043	Marionette	INFO	Listening on port 44585
+1594279810104	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+1594283494112	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehh0msx"
+*** You are running in headless mode.
+1594283520560	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezlFR82"
+*** You are running in headless mode.
+1594283535832	Marionette	INFO	Listening on port 40179
+1594283535910	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1594283637884	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHnGFZ1"
+*** You are running in headless mode.
+1594283651138	Marionette	INFO	Listening on port 41951
+1594283651221	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+1594283851393	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqBk44j"
+*** You are running in headless mode.
+1594283865371	Marionette	INFO	Listening on port 41177
+1594283865436	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+1594284208661	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFKC8a4"
+*** You are running in headless mode.
+1594284228383	Marionette	INFO	Listening on port 46063
+1594284228617	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1594284419266	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileg2whS5"
+*** You are running in headless mode.
+1594284426021	Marionette	INFO	Listening on port 40651
+1594284426090	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+1594285088003	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDikPg7"
+*** You are running in headless mode.
+1594285098524	Marionette	INFO	Listening on port 40181
+1594285098535	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1594287378428	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileW21m4M"
+*** You are running in headless mode.
+1594287390692	Marionette	INFO	Listening on port 43033
+1594287390765	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+1594287681199	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesJOS38"
+*** You are running in headless mode.
+1594287689737	Marionette	INFO	Listening on port 41201
+1594287689825	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1594287818528	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBcqsHo"
+*** You are running in headless mode.
+1594287834938	Marionette	INFO	Listening on port 35281
+1594287834975	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1594288079597	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemsbkGm"
+*** You are running in headless mode.
+1594288094846	Marionette	INFO	Listening on port 34007
+1594288094942	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+1594288217189	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTsEIbJ"
+*** You are running in headless mode.
+1594288230926	Marionette	INFO	Listening on port 35193
+1594288230931	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1594288291300	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefak9Pz"
+*** You are running in headless mode.
+1594288306925	Marionette	INFO	Listening on port 39825
+1594288306966	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+1594288586376	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoDsAnJ"
+*** You are running in headless mode.
+1594288597733	Marionette	INFO	Listening on port 34903
+1594288597814	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1594288668734	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0TcFY6"
+*** You are running in headless mode.
+1594288677231	Marionette	INFO	Listening on port 46337
+1594288677258	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1594288874550	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileH3j52r"
+*** You are running in headless mode.
+1594288888832	Marionette	INFO	Listening on port 37525
+1594288888895	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://sta.codeforces.com/s/62580/js/bfaa.js, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

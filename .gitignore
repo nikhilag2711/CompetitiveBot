@@ -4,3 +4,4 @@ venv/
 .vscode/
 Scripts/__pycache__
 Scripts/geckodriver.log
+geckodriver.log

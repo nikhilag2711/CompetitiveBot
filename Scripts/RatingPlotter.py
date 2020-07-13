@@ -11,13 +11,18 @@ import io
 from matplotlib.patches import Rectangle
 matplotlib.use('agg')
 
-def plot_rating(data,handle):
+def plot_rating(data,handle,date_ub,date_lb):
     print("reached in plot_rating")
     data_list_x=[]
     data_list_y=[]
     for row in data:
-        data_list_x.append(datetime.datetime.fromtimestamp(row["ratingUpdateTimeSeconds"]))
+        temp = datetime.datetime.fromtimestamp(row["ratingUpdateTimeSeconds"])
+        if(temp<date_lb or temp>=date_ub):
+            continue
+        data_list_x.append(temp)
         data_list_y.append(row["newRating"])
+    if(len(data_list_x)==0):
+        return None
     latest_rating = data[-1]["newRating"]
     handle_mod = handle.replace('_','-')
     extra = Rectangle((0, 0), 1, 1, fc="w", fill=False, edgecolor='none', linewidth=0) 

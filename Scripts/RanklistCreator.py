@@ -16,6 +16,9 @@ def create_ranklist(data,dataoff):
     if(rating_changes['status']=='FAILED'):
         return f'{rating_changes["comment"]}'
     rating_changes = rating_changes['result']
+    unrated=False
+    if(len(rating_changes)==0):
+        unrated=True
     print("got rating changes")
     prbs = data['problems']
     rows = data['rows']
@@ -37,15 +40,18 @@ def create_ranklist(data,dataoff):
         
         isCont = False
         chng=0
-        if(row['party']['participantType']=='CONTESTANT'):
-            rat_chng = rating_changes[offRank[row['party']['members'][0]['handle']]-1]
-            chng = rat_chng['newRating'] - rat_chng['oldRating']
-            isCont = True
-        if(isCont):
-            if(chng>=0):
-                temp.append('+' + str(chng))
+        if(unrated==False):
+            if(row['party']['participantType']=='CONTESTANT'):
+                rat_chng = rating_changes[offRank[row['party']['members'][0]['handle']]-1]
+                chng = rat_chng['newRating'] - rat_chng['oldRating']
+                isCont = True
+            if(isCont):
+                if(chng>=0):
+                    temp.append('+' + str(chng))
+                else:
+                    temp.append(str(chng))
             else:
-                temp.append(str(chng))
+                temp.append(' ??')
         else:
             temp.append(' ??')
         print("inside the loop")

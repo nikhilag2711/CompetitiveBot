@@ -402,6 +402,50 @@ async def plot_rating(ctx,handle:str='',*args):
 
 ############ Coroutines for contest lists ###############
 
+@bot.command(name='contest',help='Displays the recent contests on Codeforces.', usage='contest (div1/ div2/ div3/ div4/ edu/ global/ beta/ other)')
+async def list_contest(ctx, contest):
+    url = 'https://codeforces.com/api/contest.list?gym=false'
+    obj = requests.get(url)
+    data = json.loads(obj.text)
+
+    if data["status"] == "FAILED":
+        await ctx.send(f'{data["comment"]}')
+        return
+    
+    subs, notSubs = utils.contest_check(contest)
+    if len(subs) == 0 and len(notSubs) == 0:
+        await ctx.send('Enter a valid type of contest.')
+        return
+
+    contests = []
+    for con in data['result'] :
+        if con['phase'] != 'FINISHED':
+            continue
+        name = con['name']
+        flag = 1
+        for sub in subs:
+            if name.find(sub) == -1:
+                flag = 0
+        for sub in notSubs :
+            if name.find(sub) != -1:
+                flag = 0
+        if flag == 0:
+            continue
+
+        contests.append(con)
+        if len(contests) == 5:
+            break
+    
+    embed = discord.Embed(title='Recent rounds on Codeforces.', color=0x000000)
+    var = 0
+    while var < len(contests):
+        date = datetime.datetime.fromtimestamp(contests[var]['startTimeSeconds'])
+        embed.add_field(name=f'{var+1}. {contests[var]["name"]}', value=f'{date}', inline=False)
+        var += 1
+
+    await ctx.channel.send(embed=embed)
+
+        
 
 ###############################################
 

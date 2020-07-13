@@ -75,3 +75,32 @@ def check_status(official, virtual, practice, unoff, part):
         if part == 'OUT_OF_COMPETITION' and unoff :
             return 1
         return 0
+
+def contest_check(contest) :
+    subs = []
+    notSubs = []
+    if contest == 'div1' :
+        subs.append('Div. 1')
+    elif contest == 'div2' :
+        subs.append('Div. 2')
+        notSubs.append('Div. 1')
+        notSubs.append('Educational Codeforces')
+    elif contest == 'div3' :
+        subs.append('Div. 3')
+    elif contest == 'div4' :
+        subs.append('Div. 4')
+    elif contest == 'edu' :
+        subs.append('Educational Codeforces')
+    elif contest == 'global' :
+        subs.append('Codeforces Global Round')
+    elif contest == 'beta' :
+        subs.append('Codeforces Beta Round')
+    elif contest == 'other' :
+        notSubs.append('Div. 1')
+        notSubs.append('Div. 2')
+        notSubs.append('Div. 3')
+        notSubs.append('Div. 4')
+        notSubs.append('Educational Codeforces')
+        notSubs.append('Codeforces Global Round')
+        notSubs.append('Codeforces Beta Round')
+    return subs, notSubs

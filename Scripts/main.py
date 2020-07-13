@@ -4,6 +4,7 @@ from discord.ext import commands
 import utils
 from CFListScraper import ScrapeList
 import RanklistCreator as rl
+import RatingPlotter as rp
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
@@ -352,6 +353,23 @@ async def disp_ranklist(ctx,contest_id: str='',key:str=''):
         await ctx.send(ans)
 
 
+@bot.command(name='plot_rating',help='Plot the rating history for a selected handle')
+async def plot_rating(ctx,handle:str=''):
+    if(handle==''):
+        await ctx.send("You have to mention a handle.")
+        return
+    URL = f'https://codeforces.com/api/user.rating?handle={handle}'
+    obj = requests.get(URL)
+    data = json.loads(obj.text)
+    if(data["status"]!='OK'):
+        await ctx.send(f'{data["comment"]}')
+    elif(len(data["result"])==0):
+        await ctx.send(f'The user is unrated.')
+    else:
+        discord_file = rp.plot_rating(data["result"],handle)
+        embed = discord.Embed(title='Rating on Codeforces',color=0x000000)
+        embed.set_image(url="attachment://plot.png")
+        await ctx.channel.send(embed=embed,file=discord_file)
 
 
 ###########################################################

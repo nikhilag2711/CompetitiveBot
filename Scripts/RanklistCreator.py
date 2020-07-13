@@ -2,16 +2,13 @@ import requests,json
 
 field_spaces = {'rank': 6, 'handle': 30, 'total_score': 7, 'prob':6, 'delta': 5}
 def create_ranklist(data,dataoff):
-    print("entered rank function")
     data = data['result']
     dataoff = dataoff['result']
     rows_off = dataoff['rows']
     cnt = data['contest']
     identity = cnt['id']
-    print("reached before RAT_URL")
     RAT_URL = f'https://codeforces.com/api/contest.ratingChanges?contestId={identity}'
     obj = requests.get(RAT_URL)
-    print("after rat_url")
     rating_changes = json.loads(obj.text)
     if(rating_changes['status']=='FAILED'):
         return f'{rating_changes["comment"]}'
@@ -19,7 +16,6 @@ def create_ranklist(data,dataoff):
     unrated=False
     if(len(rating_changes)==0):
         unrated=True
-    print("got rating changes")
     prbs = data['problems']
     rows = data['rows']
     prb_names = [prb['index'] for prb in prbs]
@@ -27,7 +23,6 @@ def create_ranklist(data,dataoff):
     for row in rows_off:
         offRank[row['party']['members'][0]['handle']]=row['rank']
     
-    print(offRank)
     procdata=[]
     for row in rows:
         temp=[]
@@ -54,7 +49,6 @@ def create_ranklist(data,dataoff):
                 temp.append(' ??')
         else:
             temp.append(' ??')
-        print("inside the loop")
         procdata.append(temp)
     
     for proc in procdata:

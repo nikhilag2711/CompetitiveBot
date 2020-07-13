@@ -12,7 +12,6 @@ from matplotlib.patches import Rectangle
 matplotlib.use('agg')
 
 def plot_rating(data,handle,date_ub,date_lb):
-    print("reached in plot_rating")
     data_list_x=[]
     data_list_y=[]
     for row in data:

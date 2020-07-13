@@ -25,9 +25,7 @@ async def create_channel(ctx, channel_name: str):
     existing_channel = discord.utils.get(guild_name.channels, name=channel_name)
     if existing_channel:
         await ctx.send(f'The channel {channel_name} already exists.')
-        print(f'The channel {channel_name} already exists.')
     else:
-        print(f'Creating a new channel: {channel_name}')
         await guild_name.create_text_channel(channel_name)
         await ctx.send(f'New channel {channel_name} created.')
 
@@ -56,6 +54,7 @@ async def user_info(ctx, handle) :
     embed.add_field(name=f'{rating} ({rank})', value=f'Max Rating : {data["result"][0]["maxRating"]}', inline=False)
     embed.set_image(url=pic)
     await ctx.channel.send(embed=embed)
+
 
 @bot.command(name='blog', help='Displays user\'s latest 5 blogs within a given upvotes/date range alongwith the tags related to them.', usage='handle [u>=upvotes] [u<=upvotes] [d>=[[dd]mm]yyyy] [d<[[dd]mm]yyyy] [+tags...]')
 async def user_blogs(ctx, handle, *args) :
@@ -144,6 +143,7 @@ async def user_blogs(ctx, handle, *args) :
                     break
             
             await ctx.channel.send(embed=embed)
+
 
 @bot.command(name='stalk', help='Displays user\'s latest solved problems.', usage='handle id [+contest] [+practice] [+unofficial] [+virtual]')
 async def user_ques(ctx, handle, *args):
@@ -255,10 +255,10 @@ async def user_ques(ctx, handle, *args):
     for emoji in emojis:
         await message.clear_reaction(emoji)
 
+
 @bot.command(name='gimme', help='Displays a random problem of a given tag within a rating range.', usage='tag [lower [upper]]')
 async def user_contest(ctx, tag, *args):
     tag = tag.replace('-', '%20')
-    print(tag)
     url = f'https://codeforces.com/api/problemset.problems?tags={tag}'
     obj = requests.get(url)
     data = json.loads(obj.text)
@@ -310,11 +310,6 @@ async def user_contest(ctx, tag, *args):
     await ctx.channel.send(embed=embed)
 
 
-######################################################
-
-
-###### Creating coroutines for standings by use of lists ########
-
 @bot.command(name='ranklist',help='Displays the standings along with rating changes of the users in a list specified by user (Shows at max 17 positions)')
 async def disp_ranklist(ctx,contest_id: str='',key:str=''):
     handles=''
@@ -333,13 +328,11 @@ async def disp_ranklist(ctx,contest_id: str='',key:str=''):
         obj = requests.get(STANDINGS_URL)
         objoff = requests.get(STANDINGS_URL_OFF)
         handles='yay'
-    print(handles)
     if(handles==''):
         await ctx.send("Such a list does not exist")
         return
     temp = json.loads(obj.text)
     temp2 = json.loads(objoff.text)
-    print("reached here")
     if(temp['status']=="FAILED"):
         await ctx.send(f'{temp["comment"]}')
     elif(temp2['status']=="FAILED"):
@@ -347,9 +340,7 @@ async def disp_ranklist(ctx,contest_id: str='',key:str=''):
     elif len(temp['result'])==0:
         await ctx.send(f'No data available to display')
     else:
-        print("entered in here")
         ans = rl.create_ranklist(temp,temp2)
-        print(ans)
         await ctx.send(ans)
 
 
@@ -388,19 +379,6 @@ async def plot_rating(ctx,handle:str='',*args):
         embed.set_image(url="attachment://plot.png")
         await ctx.channel.send(embed=embed,file=discord_file)
 
-
-###########################################################
-
-
-###### Coroutines for rating changes ###################
-
-#####################################################
-
-########### Coroutines for problemset ###############
-
-###################################################
-
-############ Coroutines for contest lists ###############
 
 @bot.command(name='contest',help='Displays the recent contests on Codeforces.', usage='contest (div1/ div2/ div3/ div4/ edu/ global/ beta/ other)')
 async def list_contest(ctx, contest):

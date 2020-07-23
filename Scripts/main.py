@@ -35,7 +35,6 @@ async def on_command_error(ctx,error):
         await ctx.send('You do not have the correct role for this command.')
 
 # ~~~~~~~ CODEFORCES ~~~~~~~~~~~
-###### Creating Coroutines for User Info#############
 
 @bot.command(name='info', help='Displays user\'s info on Codeforces.')
 async def user_info(ctx, handle) :
@@ -423,10 +422,23 @@ async def list_contest(ctx, contest):
 
     await ctx.channel.send(embed=embed)
 
-        
+    
+# Topcoder ##################
 
-###############################################
-
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+@bot.command(name='tcprofile',help='Displays user information of specified topcoder handle.',usage='tcprofile <handle>')
+async def tcprofile(ctx,handle:str=''):
+    if(handle==''):
+        await ctx.send("Enter valid topcoder handle")
+        return
+    TCUSERURL = f'http://api.topcoder.com/v2/users/{handle}'
+    obj = requests.get(TCUSERURL)
+    data = json.loads(obj.text)
+    if("error" in data):
+        await ctx.send("The entered handle is invalid")
+    else:   
+        embed = discord.Embed(title=f'{data["handle"]}', description=f'{data["country"]}', colour=0x000000)
+        embed.set_image(url=data["photoLink"])
+        for rat in data["ratingSummary"]:
+            embed.add_field(name=f'{rat["name"]}', value=f'{rat["rating"]}',inline=False)
+        await ctx.channel.send(embed=embed) 
 bot.run(TOKEN)

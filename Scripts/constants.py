@@ -1,0 +1,12 @@
+
+TEMP_DIR = 'temp'
+CF_USER_INFO = 'https://codeforces.com/api/user.info?handles='
+CF_USER_BLOG_ENTRIES= 'https://codeforces.com/api/user.blogEntries?handle='
+CF_BLOG_ENTRY = 'https://codeforces.com/blog/entry/'
+CF_USER_STATUS = 'https://codeforces.com/api/user.status?handle='
+CF_PROBLEM = 'https://codeforces.com/problemset/problem/'
+CF_PROBLEM_TAGS = 'https://codeforces.com/api/problemset.problems?tags='
+CF_USER_RATING = 'https://codeforces.com/api/user.rating?handle='
+CF_CONTEST_LIST = 'https://codeforces.com/api/contest.list?gym=false'
+TC_USER_INFO = 'http://api.topcoder.com/v2/users/'
+CF_RAT_CHANGE = 'https://codeforces.com/api/contest.ratingChanges?contestId='

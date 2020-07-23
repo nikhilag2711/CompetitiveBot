@@ -6,6 +6,7 @@ from CFListScraper import ScrapeList
 import RanklistCreator as rl
 import RatingPlotter as rp
 load_dotenv()
+from constants import *
 TOKEN = os.getenv('DISCORD_TOKEN')
 
 bot = commands.Bot(command_prefix='cp!')
@@ -38,7 +39,7 @@ async def on_command_error(ctx,error):
 
 @bot.command(name='info', help='Displays user\'s info on Codeforces.')
 async def user_info(ctx, handle) :
-    url = f' https://codeforces.com/api/user.info?handles={handle}'
+    url = f' {CF_USER_INFO}{handle}'
     obj = requests.get(url)
     data = json.loads(obj.text)
 
@@ -57,10 +58,10 @@ async def user_info(ctx, handle) :
 
 @bot.command(name='blog', help='Displays user\'s latest 5 blogs within a given upvotes/date range alongwith the tags related to them.', usage='handle [u>=upvotes] [u<=upvotes] [d>=[[dd]mm]yyyy] [d<[[dd]mm]yyyy] [+tags...]')
 async def user_blogs(ctx, handle, *args) :
-    url = f'https://codeforces.com/api/user.blogEntries?handle={handle}'
+    url = f'{CF_USER_BLOG_ENTRIES}{handle}'
     obj = requests.get(url)
     data = json.loads(obj.text)
-    url = f'https://codeforces.com/api/user.info?handles={handle}'
+    url = f'{CF_USER_INFO}{handle}'
     obj = requests.get(url)
     data2 = json.loads(obj.text)
 
@@ -133,7 +134,7 @@ async def user_blogs(ctx, handle, *args) :
             embed = discord.Embed(title=f'{handle}\'s latest blog list :', color=0x000000)
             embed.set_thumbnail(url=pic)
             for blog in ans:
-                lat_blog = f'https://codeforces.com/blog/entry/{blog["id"]}'
+                lat_blog = f'{CF_BLOG_ENTRY}{blog["id"]}'
                 title = re.sub(r'<.*?>', '', blog['title'])
                 date = datetime.datetime.fromtimestamp(blog['creationTimeSeconds'])
                 var = var+1
@@ -146,7 +147,7 @@ async def user_blogs(ctx, handle, *args) :
 
 @bot.command(name='stalk', help='Displays user\'s latest solved problems.', usage='handle id [+contest] [+practice] [+unofficial] [+virtual]')
 async def user_ques(ctx, handle, *args):
-    url = f'https://codeforces.com/api/user.status?handle={handle}&from=1'
+    url = f'{CF_USER_STATUS}{handle}&from=1'
     obj = requests.get(url)
     data = json.loads(obj.text)
     if data['status'] == "FAILED":
@@ -181,7 +182,7 @@ async def user_ques(ctx, handle, *args):
         if prob['verdict'] == 'OK' and check == 1 and idx not in ques:
             if var%10==0 :
                 embed = discord.Embed(color=0x000000)
-            url = 'https://codeforces.com/problemset/problem/'
+            url = f'{CF_PROBLEM}'
             url += str(prob['contestId'])
             url += '/'
             url += prob["problem"]["index"]
@@ -258,7 +259,7 @@ async def user_ques(ctx, handle, *args):
 @bot.command(name='gimme', help='Displays a random problem of a given tag within a rating range.', usage='tag [lower [upper]]')
 async def user_contest(ctx, tag, *args):
     tag = tag.replace('-', '%20')
-    url = f'https://codeforces.com/api/problemset.problems?tags={tag}'
+    url = f'{CF_PROBLEM_TAGS}{tag}'
     obj = requests.get(url)
     data = json.loads(obj.text)
     if data['status'] == "FAILED":
@@ -348,7 +349,7 @@ async def plot_rating(ctx,handle:str='',*args):
     if(handle==''):
         await ctx.send("You have to mention a handle.")
         return
-    URL = f'https://codeforces.com/api/user.rating?handle={handle}'
+    URL = f'{CF_USER_RATING}{handle}'
     obj = requests.get(URL)
     data = json.loads(obj.text)
     date_ub , date_lb = datetime.datetime.now(),datetime.datetime(2000,1,1)
@@ -381,7 +382,7 @@ async def plot_rating(ctx,handle:str='',*args):
 
 @bot.command(name='contest',help='Displays the recent contests on Codeforces.', usage='contest (div1/ div2/ div3/ div4/ edu/ global/ beta/ other)')
 async def list_contest(ctx, contest):
-    url = 'https://codeforces.com/api/contest.list?gym=false'
+    url = f'{CF_CONTEST_LIST}'
     obj = requests.get(url)
     data = json.loads(obj.text)
 
@@ -430,7 +431,7 @@ async def tcprofile(ctx,handle:str=''):
     if(handle==''):
         await ctx.send("Enter valid topcoder handle")
         return
-    TCUSERURL = f'http://api.topcoder.com/v2/users/{handle}'
+    TCUSERURL = f'{TC_USER_INFO}{handle}'
     obj = requests.get(TCUSERURL)
     data = json.loads(obj.text)
     if("error" in data):

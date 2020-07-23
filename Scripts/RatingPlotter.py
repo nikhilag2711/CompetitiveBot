@@ -8,6 +8,7 @@ import os
 import time
 import discord
 import io
+import constants
 from matplotlib.patches import Rectangle
 matplotlib.use('agg')
 
@@ -41,7 +42,7 @@ def plot_rating(data,handle,date_ub,date_lb):
     plt.ylim(ymin,ymax)
     plt.gcf().autofmt_xdate()
     plt.legend([extra],[f'{handle_mod} ({latest_rating})'],loc='upper left')
-    filename = os.path.join('/home/user/Desktop/CPAssist/temp',f'tempplot_{time.time()}.png')
+    filename = os.path.join(constants.TEMP_DIR,f'tempplot_{time.time()}.png')
     plt.savefig(filename,facecolor=plt.gca().get_facecolor(), bbox_inches='tight', pad_inches=0.25)
     plt.close()
     with open(filename, 'rb') as file:

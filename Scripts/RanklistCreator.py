@@ -1,5 +1,5 @@
 import requests,json
-
+from constants import *
 field_spaces = {'rank': 6, 'handle': 30, 'total_score': 7, 'prob':6, 'delta': 5}
 def create_ranklist(data,dataoff):
     data = data['result']
@@ -7,7 +7,7 @@ def create_ranklist(data,dataoff):
     rows_off = dataoff['rows']
     cnt = data['contest']
     identity = cnt['id']
-    RAT_URL = f'https://codeforces.com/api/contest.ratingChanges?contestId={identity}'
+    RAT_URL = f'{CF_RAT_CHANGE}{identity}'
     obj = requests.get(RAT_URL)
     rating_changes = json.loads(obj.text)
     if(rating_changes['status']=='FAILED'):
